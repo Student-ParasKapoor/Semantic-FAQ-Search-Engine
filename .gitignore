@@ -13,3 +13,6 @@ venv
 build/
 develop-eggs/
 dist/
+
+# Streamlit cache
+.streamlit/

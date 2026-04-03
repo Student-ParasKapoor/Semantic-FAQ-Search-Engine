@@ -4,6 +4,9 @@
 
 This project is a semantic FAQ search engine that retrieves the most relevant question from a dataset based on user input. It addresses the limitations of traditional keyword-based search by leveraging modern NLP techniques to understand the **meaning** of queries rather than just matching words.
 
+## 🔗 GitHub Repository:
+
+https://github.com/Student-ParasKapoor/Semantic-FAQ-Search-Engine.git
 ---
 
 ## 🚀 Features
@@ -58,22 +61,30 @@ pip install -r requirements.txt
 
 ## 📂 Project Structure
 
-```text
+```
 
 📂 Semantic-FAQ-Search/
 │
 ├── 📄 tfidf_search.py                     # Version 1: TF-IDF
 ├── 📄 embedding_search.py                 # Version 2: Word Embeddings
 ├── 📄 sentence_transformer_search.py      # Version 3: Final Model
-├── 📄 requirements.txt
-└── 📄 README.md  
+├── 📄 streamlit_app.py
+├── 📄 README.md
+└── 📄 requirements.txt 
 
 ```
 ---
 
 ## ▶️ Usage
 
-Run any version:
+### Run Streamlit App (Recommended)
+
+```bash
+streamlit run streamlit_app.py
+
+```
+
+### Run Individual Models(Optional):
 
 ```bash
 python tfidf_search.py
@@ -82,7 +93,15 @@ python sentence_transformer_search.py
 
 ```
 ---
+```markdown
+## 💻 Interactive UI
 
+This project includes a Streamlit-based interface that allows users to:
+- Select different NLP models
+- Enter queries interactively
+- Compare results across approaches
+```
+---
 # 🧪 Example
 
 **Input Query:**
@@ -111,3 +130,5 @@ Best matching FAQ: How can I reset my password?
 ## 👨‍💻 Author
 
 Built as part of a hands-on NLP learning journey focusing on deep understanding of semantic search systems.
+
+~ Paras Kapoor
