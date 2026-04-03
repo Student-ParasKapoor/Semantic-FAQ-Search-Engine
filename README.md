@@ -93,8 +93,8 @@ python sentence_transformer_search.py
 
 ```
 ---
+# 💻 Interactive UI
 ```markdown
-## 💻 Interactive UI
 
 This project includes a Streamlit-based interface that allows users to:
 - Select different NLP models
